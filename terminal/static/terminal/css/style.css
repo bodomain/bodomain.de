@@ -41,6 +41,42 @@ pre {
     text-shadow: 0 0 5px rgba(80, 250, 123, 0.3);
 }
 
+.brand-banner {
+    background: repeating-linear-gradient(
+        45deg,
+        #212121,
+        #212121 5px,
+        #2a2a2a 5px,
+        #2a2a2a 10px
+    );
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.brand-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #ff79c6, #bd93f9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px rgba(189, 147, 249, 0.3);
+}
+
+.version-text {
+    font-family: 'Fira Code', monospace;
+    color: #6272a4;
+    font-size: 0.9rem;
+}
+
 .intro {
     margin-bottom: 20px;
 }
