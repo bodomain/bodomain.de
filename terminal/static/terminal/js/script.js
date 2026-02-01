@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // 3. Send to backend
-            fetch('/api/command/', {
+            fetch(window.COMMAND_API_URL, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
